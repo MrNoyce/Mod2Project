@@ -1,0 +1,77 @@
+body {
+    width: 70%;
+    margin: 0 auto;
+    background-color: gray
+    
+}
+
+#wrapperBody{
+    background-color: whitesmoke;
+    position: fixed;
+    bottom: 0;
+    margin: 0 auto;
+    top: 0;
+    width: 70%;
+}
+
+header{
+    background-color: #042b53;
+    height: 3em;
+}
+
+#wrapperHeaderButtons {
+    float: right;
+    padding: 0.75em;
+}
+
+#mainLogo {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0.5em;
+}
+
+article {
+    width: 100%;
+}
+
+#wrapperContent {
+    position: absolute;
+    top: 25%;
+    width: 100%
+}
+
+#wrapperArticle {
+    margin: 0 auto;
+    text-align: center;
+    padding: 1em;
+}
+
+#searchButton {
+    width: 100px
+}
+
+#searchBox {
+    width: 50%
+}
+
+
+table {
+    margin: 0 auto;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+footer {
+    background-color: #042b53;
+    color: white;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: auto;
+    width: 100%;
+}
+
+

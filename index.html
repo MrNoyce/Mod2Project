@@ -2,38 +2,46 @@
 <html>
     <head>
         <title>Coffee?! Find your perfect coffee </title>
+        <link rel="stylesheet" href="../Mod2Project/style.css">
     </head>
     <body>
-        <header>
-                <input class="buttons" id="loginBut" type="button" value="login">
-                <input class="buttons" id="signUpBut" type="button" value="sign up">
-                <h1>Coffee?!</h1>
-        </header>
-
-        <article>
-            <input id="searchBox" type="text" name="SearchVal" id="searchVal" placeholder="Find coffee in....?">
-            <a href="../Mod2Project/searchResult.html"><input class="buttons" id="searchButton" type="button" value="Search"></a>
-        </article>
-        <br>
-        <table id="mainPageTable"> <!--This is for images of coffee shops render -->
-                <tr>
-                  <td class="imagesTable" id="1"><img src="../Mod2Project/images/coffeeIcon.jpg" alt="Coffee icon"></td> 
-                  <td class="imagesTable" id="2"><img src="../Mod2Project/images/coffeeIcon.jpg" alt="Coffee icon"></td>
-                  <td class="imagesTable" id="3"><img src="../Mod2Project/images/coffeeIcon.jpg" alt="Coffee icon"></td>
-                  <td class="imagesTable" id="4"><img src="../Mod2Project/images/coffeeIcon.jpg" alt="Coffee icon"></td>
-                  <td class="imagesTable" id="5"><img src="../Mod2Project/images/coffeeIcon.jpg" alt="Coffee icon"></td>
-                </tr>
-                <tr>
-                  <td class="imagesTable" id="6"><img src="../Mod2Project/images/coffeeIcon.jpg" alt="Coffee icon"></td>
-                  <td class="imagesTable" id="7"><img src="../Mod2Project/images/coffeeIcon.jpg" alt="Coffee icon"></td>
-                  <td class="imagesTable" id="8"><img src="../Mod2Project/images/coffeeIcon.jpg" alt="Coffee icon"></td>
-                  <td class="imagesTable" id="9"><img src="../Mod2Project/images/coffeeIcon.jpg" alt="Coffee icon"></td>
-                  <td class="imagesTable" id="10"><img src="../Mod2Project/images/coffeeIcon.jpg" alt="Coffee icon"></td>
-                </tr>
-        </table>
-
-        <footer>
-            <p>Coffee?! Ltd.</p>
-        </footer>
+        <div id="wrapperBody">
+            <header>
+                    <div id="wrapperHeaderButtons">
+                        <input class="buttons" id="loginBut"type="button" value="Sign in">
+                        <input class="buttons" id="signUpBut"type="button" value="Sign up">
+                    </div>
+                </header>
+        
+                <article>
+                    <div id="wrapperContent">
+                        <div id="mainLogo">
+                                <img src="../Mod2Project/images/logoNew.png" alt="Coffee Logo">
+                            </div>
+                        <div id="wrapperArticle">
+                                <input id="searchBox" type="text"name="SearchVal"id="searchVal"placeholder="Find coffee in....?">
+                                <a href="../Mod2Project/searchResult.html"><input class="buttons"id="searchButton"type="button" value="Search"></a>
+                            </div>
+    
+                        <table id="mainPageTable"> <!--This is for images of coffee shops render -->
+                                    <tr>
+                                      <td class="imagesTable" id="td1"><img src="../Mod2Project/images/CoffeCup.png" alt="Coffee icon"></td> 
+                                      <td class="imagesTable" id="2"><img src="../Mod2Project/images/ManyCups.png" alt="Coffee icon"></td>
+                                      <td class="imagesTable" id="3"><img src="../Mod2Project/images/CoffeCup.png" alt="Coffee icon"></td>
+                                      <td class="imagesTable" id="4"><img src="../Mod2Project/images/ManyCups.png" alt="Coffee icon"></td>
+                                      <td class="imagesTable" id="5"><img src="../Mod2Project/images/CoffeCup.png" alt="Coffee icon"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="imagesTable" id="6"><img src="../Mod2Project/images/CoffeCup.png" alt="Coffee icon"></td> 
+                                        <td class="imagesTable" id="7"><img src="../Mod2Project/images/ManyCups.png" alt="Coffee icon"></td>
+                                        <td class="imagesTable" id="8"><img src="../Mod2Project/images/CoffeCup.png" alt="Coffee icon"></td>
+                                        <td class="imagesTable" id="9"><img src="../Mod2Project/images/ManyCups.png" alt="Coffee icon"></td>
+                                        <td class="imagesTable" id="10"><img src="../Mod2Project/images/CoffeCup.png" alt="Coffee icon"></td>
+                                    </tr>
+                            </table>
+                        </div>
+                    </article>
+                    <footer><p>Coffee?! Ltd.</p></footer> 
+            </div>         
     </body>
 </html>
